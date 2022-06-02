@@ -1,0 +1,5 @@
+db:
+  type: postgres
+
+websocket:
+  port: 8080

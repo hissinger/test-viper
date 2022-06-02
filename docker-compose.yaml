@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  test:
+    image: 'test'
+    environment:
+      - DB_TYPE=mysql
+      - WEBSOCKET_PORT=9000
